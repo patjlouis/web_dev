@@ -51,15 +51,15 @@ namespace banasTutorial
             //Console.ReadLine();
 
             //Eample 3
-            //for (int i = 0; i < 10; i++)
-            //{
-            //    if ((i % 2) > 0)
-            //    {
-            //        Console.WriteLine(i);
-            //    }
+             for (int i = 0; i < 10; i++)
+             {
+                if ((i % 2) > 0)
+                 {
+                     Console.WriteLine(i);
+                }
 
-            //}
-            //        Console.ReadLine();
+             }
+                     Console.ReadLine();
 
             //Exmaple 4
             //string randStr = "Here are some random characters";
