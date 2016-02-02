@@ -1,0 +1,66 @@
+
+<!-- Jean-Patrice Jean-Louis
+	 COP 3834-01 Web Application Development
+	 Context Selector
+	 1.31.16
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width = device-width, inital-scale = 1">
+    
+    <title> Context Selector </title>
+    <style>
+        
+        #list2
+        {
+            color: blue;
+            border-left-width: 3px;
+            
+        }
+        
+        #list1 
+        {
+
+            color: red;
+        }
+        
+        
+     </style>
+
+  <table align = 'center' width="50px" height = "50px" id="table1">
+          
+    <ul>
+        <li>Fish</li>
+         <li>Mammal
+         <ol>
+             <li> Wolf </li>
+             <li> Cat </li>
+             <ul id="list1">
+                <li> Tiger </li>
+                <li> Lion </li>
+             </ul>
+         </ol>
+         </li>
+     </ul>
+      <ol>
+         <li>Moss</li>
+         <li>Tree
+         <ul>
+             <li id="list2"> Willow </li>
+             <li id="list2"> Oak </li>
+             <ol>
+                <li> Small Leave </li>
+                <li> Long Leave </li>
+                </ol>
+         </ul>
+      </ul>
+   </li>
+</ul>
+    
+  </table>
+    </head>
+</html>
