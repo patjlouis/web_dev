@@ -1,0 +1,36 @@
+<!-- Jean-Patrice Jean-Louis
+	 COP 3834-01 Web Application Development
+	 HTML_GUI
+	 3.30.16
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<link rel="stylesheet" type="text/css" href="mystyle.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width = device-width, inital-scale = 1">
+		<style align='center'></style>
+	
+	</head>
+	<body>
+		Number1: <input type = "text" id = "n1">
+		<br>
+		<br>
+		Number2: <input type = "text" id = "n2">
+		<br>
+		<br>
+		Sum: <input type = "text" id = "sum">
+		<br>
+		<br>
+		<button onclick = "f1()" > Calculate </button>
+		<script>
+			function f1() {
+			var num1 = parseInt(document.getElementById("n1").value);
+			var num2 = parseInt(document.getElementById("n2").value);
+			document.getElementById("sum").value = num1 + num2;
+			}
+		</script>
+	</body>
+</html>
